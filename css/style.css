@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img{
+  border: 0;
+}
+input{
+  border: none;
+}
+body{
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',宋体,sans-serif;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.wrap{
+	width: 990px;
+    margin: 0 auto;
+}
+ /***************e-nav开始****************/
+#e-nav{
+	width: 100%;
+    height: 34px;
+	background: #F5F5F5;
+}
+#e-nav .nav-left{
+	float: left;
+}
+#e-nav .nav-right{
+	float: right;
+}
+#e-nav ul li{
+	float: left;
+	padding: 0 6px;
+	height: 34px;
+	/*line-height: 35px;*/
+}
+#e-nav ul li a{
+	float: left;
+	font-size: 12px;
+    color: #6C6C6C;
+	max-width: 98px;
+	line-height: 34px;
+}
+#e-nav .nav-left li span{
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 12px;
+    color: #6C6C6C;
+}
+#e-nav .nav-left .login-logo{
+	margin-top:10px; 
+	width: 14px;
+	height: 14px;
+	background: url('../images/nav-1.gif');
+}
+#e-nav .nav-left .news-logo{
+	vertical-align: middle;
+	overflow: hidden;
+	width: 13px;
+	height: 5px;
+    background: url('../images/nav-2.gif');
+}
+#e-nav .nav-left .news-text{
+    line-height: 34px;
+}
+#e-nav .nav-right .index{
+    color: #F22E00;
+}
+/***************e-nav结束****************/
